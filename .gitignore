@@ -1,2 +1,10 @@
-# Google App Engine generated folder
-appengine-generated/
+# Eclipse
+.project
+.pydevproject
+
+# Generated files
+*.discovery
+*.pyc
+
+# Mac OS X
+*.DS_Store
