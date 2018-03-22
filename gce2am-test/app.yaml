@@ -2,6 +2,10 @@ runtime: python27
 api_version: 1
 threadsafe: true
 
+env_variables:
+  ENDPOINTS_SERVICE_NAME: gce2am-test.appspot.com
+  ENDPOINTS_SERVICE_VERSION: 2018-03-22r0
+
 handlers:
 - url: /_ah/api/.*
   script: main.rpc_app
